@@ -2,6 +2,7 @@
   "name": "YunByungil",
   "version": "1.0.0",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "got": "^11.8.5",
     "date-fns": "^2.30.0",
     "js-quantities": "^1.7.6",
