@@ -1,9 +1,6 @@
 ### Hi there 👋
-![chat_svg](https://github.com/YunByungil/YunByungil/blob/master/chat.svg)
 ## 🦆
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbsrhkstjqz)](https://solved.ac/dbsrhkstjqz/)
-
-[![](https://github.com/YunByungil/YunByungil/blob/master/chat.svg)](https://twitter.com/algo_diver)
 
 <!--
 **YunByungil/YunByungil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
