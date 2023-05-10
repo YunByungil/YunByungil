@@ -1,0 +1,9 @@
+{
+  "name": "YunByungil",
+  "version": "1.0.0",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "js-quantities": "^1.7.6",
+    "openweather-apis": "^4.4.2"
+  }
+}
