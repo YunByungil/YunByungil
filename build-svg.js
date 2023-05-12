@@ -1,4 +1,6 @@
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+const WEATHER_API_k = process.env.WEATHER_API_k
+console.log("check : " + WEATHER_API_k);
 const testCode = 'gd';
 console.log(WEATHER_API_KEY);
 console.log(testCode);
