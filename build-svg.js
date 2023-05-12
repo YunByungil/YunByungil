@@ -35,6 +35,7 @@ weather.setLang('en')
 weather.setCoordinate(37.517235, 127.047325)
 weather.setUnits('imperial')
 weather.setAPPID(WEATHER_API_KEY)
+console.log("체크 : " + weather.getUnits()); //
 console.log(weather.getCoordinate());
 console.log(weather.getCityId()); // 체크하는 곳
 weather.getWeatherOneCall(function (err, data) {
