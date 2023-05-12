@@ -6,7 +6,7 @@ let fs = require('fs')
 let formatDistance = require('date-fns/formatDistance')
 let weather = require('openweather-apis')
 let qty = require('js-quantities')
-
+console.log('weather확인: ' + weather);
 const emojis = {
     '01d': '☀️',
     '02d': '⛅️',
@@ -45,7 +45,7 @@ weather.getWeatherOneCall(function (err, data) {
 
     fs.readFile('template.svg', 'utf-8', (error, data) => {
         if (error) {
-            console.error(error)
+            console.error('templateError:' + error) // template Error
             return
         }
 
@@ -57,7 +57,7 @@ weather.getWeatherOneCall(function (err, data) {
 
         data = fs.writeFile('chat.svg', data, (err) => {
             if (err) {
-                console.error(err)
+                console.error('chatError'+err) // chatError
                 return
             }
         })
