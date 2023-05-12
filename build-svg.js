@@ -38,6 +38,7 @@ weather.setAPPID(WEATHER_API_KEY)
 console.log("체크 : " + weather.getUnits()); //
 console.log(weather.getCoordinate());
 console.log(weather.getCityId()); // 체크하는 곳
+console.log("api : " + weather.getAPPID());
 weather.getWeatherOneCall(function (err, data) {
     if (err) console.log("이거 무슨 에러야?? : "+err)
 
