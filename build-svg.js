@@ -32,7 +32,7 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 
 // Today's weather
 weather.setLang('en')
-// weather.setCoordinate(37.517235, 127.047325)
+weather.setCoordinate(37.517235, 127.047325)
 weather.setUnits('imperial')
 weather.setAPPID("2834387742b25d5393a21e88fee8246a")
 console.log("체크 : " + weather.getUnits()); //
