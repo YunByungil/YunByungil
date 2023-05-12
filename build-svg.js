@@ -39,7 +39,7 @@ console.log("체크 : " + weather.getUnits()); //
 console.log(weather.getCoordinate());
 console.log(weather.getCityId()); // 체크하는 곳
 weather.getWeatherOneCall(function (err, data) {
-    if (err) console.log(err)
+    if (err) console.log("이거 무슨 에러야?? : "+err)
 
     const degF = Math.round(data.daily[0].temp.max)
     const degC = Math.round(qty(`${degF} tempF`).to('tempC').scalar)
