@@ -6,7 +6,7 @@ let fs = require('fs')
 let formatDistance = require('date-fns/formatDistance')
 let weather = require('openweather-apis')
 let qty = require('js-quantities')
-console.log('weather확인: ' + weather);
+console.log('weather확인: ' + weather.getExclude());
 const emojis = {
     '01d': '☀️',
     '02d': '⛅️',
@@ -35,7 +35,7 @@ weather.setLang('en')
 weather.setCoordinate(37.517235, 127.047325)
 weather.setUnits('imperial')
 weather.setAPPID(WEATHER_API_KEY)
-
+console.log(weather.getCityId()); // 체크하는 곳
 weather.getWeatherOneCall(function (err, data) {
     if (err) console.log(err)
 
