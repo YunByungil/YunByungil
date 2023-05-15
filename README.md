@@ -1,6 +1,6 @@
 ### Hi there 👋
 ## 🦆
-![chat_svg](https://github.com/YunByungil/YunByungil/blob/main/chat.svg)(https://byungil.tistory.com/)
+[![chat_svg](https://github.com/YunByungil/YunByungil/blob/main/chat.svg)](https://byungil.tistory.com/)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dbsrhkstjqz)](https://solved.ac/dbsrhkstjqz/)
 
