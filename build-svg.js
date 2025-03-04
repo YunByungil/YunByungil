@@ -44,9 +44,9 @@ console.log("api : " + weather.getAPPID());
 weather.getWeatherOneCall(function (err, data) {
     if (err) console.log("이거 무슨 에러야?? : "+err)
 
-    const degF = 12
+    const degF = Math.round(data.temp.max)
     const degC = Math.round(qty(`${degF} tempF`).to('tempC').scalar)
-    const icon = '04d'
+    const icon = data.weather[0].icon
 
     // const degF = 10;
     // const degC = 20;
