@@ -47,9 +47,11 @@ weather.getWeatherOneCall(function (err, data) {
     console.log('------');
     if (err) console.log("이거 무슨 에러야?? : "+err)
 
-    const degF = Math.round(data.main.temp_max)
+    // const degF = Math.round(data.main.temp_max)
+    const degF = 276.97
     const degC = Math.round(qty(`${degF} tempF`).to('tempC').scalar)
-    const icon = data.weather[0].icon
+    // const icon = data.weather[0].icon
+    const icon = '04d'
 
     // const degF = 10;
     // const degC = 20;
