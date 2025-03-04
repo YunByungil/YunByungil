@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = '80540e6226e5754431a00a82463e1695'
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY
 const WEATHER_API_k = process.env.BYUNGIL_API_KEY;
 console.log("check : " + WEATHER_API_k);
 const testCode = 'gd';
@@ -42,6 +42,7 @@ console.log(weather.getCoordinate());
 console.log(weather.getCityId()); // 체크하는 곳
 console.log("api : " + weather.getAPPID());
 weather.getWeatherOneCall(function (err, data) {
+    console.log('check');
     console.log(data);
     console.log('------');
     if (err) console.log("이거 무슨 에러야?? : "+err)
