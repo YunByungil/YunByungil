@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+const WEATHER_API_KEY = '80540e6226e5754431a00a82463e1695'
 const WEATHER_API_k = process.env.BYUNGIL_API_KEY;
 console.log("check : " + WEATHER_API_k);
 const testCode = 'gd';
