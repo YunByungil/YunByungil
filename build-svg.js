@@ -42,6 +42,8 @@ console.log(weather.getCoordinate());
 console.log(weather.getCityId()); // 체크하는 곳
 console.log("api : " + weather.getAPPID());
 weather.getWeatherOneCall(function (err, data) {
+    console.log(data);
+    console.log('------');
     if (err) console.log("이거 무슨 에러야?? : "+err)
 
     const degF = Math.round(data.main.temp_max)
