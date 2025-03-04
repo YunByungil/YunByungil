@@ -51,7 +51,7 @@ weather.getWeatherOneCall(function (err, data) {
     const degF = 35.6
     const degC = Math.round(qty(`${degF} tempF`).to('tempC').scalar)
     // const icon = data.weather[0].icon
-    const icon = '04d'
+    const icon = '03d'
 
     // const degF = 10;
     // const degC = 20;
